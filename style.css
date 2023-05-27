@@ -457,10 +457,13 @@
 
   .logo{
     margin-right: 64px;
-    position:absolute;
-    top: auto;
-    left:20px;
     z-index: 2;
+  }
+
+  .logo_place_header{
+    position: absolute;
+    top: auto;
+    left: 20px;
     padding-top: 30px;
   }
 
@@ -546,14 +549,14 @@
     font-weight: normal;
     padding-top: 100px;
   }
-  .two-columns__main-text-paragraph_separation-paragraph{
+  .two-columns__main-text-paragraph_separation_paragraph{
     height: 34px;
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 30px;
     margin-top: 0px;
   }
-  .two-columns__main-text-paragraph_span-paragraph{
+  .two-columns__main-text-paragraph_span_paragraph{
     height: 34px;
     font-size: 24px;
     font-weight: normal;
@@ -741,4 +744,108 @@
     top: 0px;
     right: -124px;
     overflow: hidden;
+  }
+
+  .footer{
+    height: 350px;
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+  }
+
+  .footer__columns{
+    flex-basis: 711px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+
+  .footer__column_copyright{
+    height: 18px;
+    position: absolute;
+    bottom: -50px;
+    left: -380px;
+  }
+
+  .copyrights{
+    color: #ffffff;
+  }
+
+  .footer__author{
+    height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .footer__column_about{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: #ffffff;
+  }
+
+  .footer__column-heading{
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+  }
+
+  .footer__column-list{
+    height: 30px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+  }
+
+  .footer__column_social{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: -250px;
+    gap: 20px;
+  }
+
+  .footer__column_social-heading{
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+  }
+
+  .footer__column_social-link{
+    height: 30px;
+    font-size: 18px;
+    list-style: none;
+    color: #ffffff;
+  }
+
+  .footer__column_social-icons{
+    height: 16px;
+    width: 16px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .logo_place_footer{
+    width: 183px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: -380px;
   }
