@@ -11,7 +11,7 @@
 
 .header {
   height: 756px;
-  background: color #f2f2f2;
+  background-color: #f2f2f2;
   position: relative;
   /* parameters for the header section */
 }
@@ -66,15 +66,23 @@
   position: absolute;
   bottom: 15px;
   left: 20px;
+}
+
+.header__link-text{
+  color: #2f80ed;
   line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .header__main-illustration {
   position: absolute;
   right: 0px;
-  top: 64px;
+  bottom: 0px;
   height: 756px;
   width: 608px;
+  z-index: 1;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -83,9 +91,8 @@
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  top: 64px;
+  top: 0px;
   right: 0px;
-  z-index: -1;
 }
 
 .content {
@@ -226,10 +233,11 @@
   top: 50%;
   left: 40%;
   z-index: 1;
+  padding-top: 70px;
 }
 
 .feynman__subtitle-text {
-  height: 51px;
+  line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
@@ -246,6 +254,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .feynman__image {
@@ -267,24 +276,30 @@
 
 .kaufman__title {
   width: 60%;
+  z-index: 1;
+}
+
+.kaufman__title-text{
   font-size: 60px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center;
-  z-index: 1;
   line-height: 1.15;
+  text-align: center;
   margin: 0;
 }
 
 .kaufman__subtitle {
   width: 60%;
-  line-height: 34px;
+  z-index: 2;
+  padding-top: 20px;
+}
+
+.kaufman__subtitle-text{
   font-size: 24px;
   font-weight: normal;
   color: #ffffff;
   text-align: center;
-  z-index: 2;
-  padding-top: 20px;
+  line-height: 34px;
   margin: 0px;
 }
 
@@ -293,11 +308,11 @@
   width: 1100px;
   list-style: none;
   z-index: 3;
-  padding-right: 100px;
+  padding-right: 90px;
 }
 
 .table__cell_theme_dark {
-  width: 100px;
+  width: 200px;
   color: white;
 }
 
@@ -311,7 +326,7 @@
 
 .table__text_theme_dark {
   color: #ffffff;
-  width: 50%;
+  width: 100%;
   padding-top: 20px;
   font-size: 18px;
   line-height: 1.2;
@@ -323,8 +338,6 @@
   top: 0px;
   right: -124px;
   overflow: hidden;
-  width: 660px;
-  height: 636px;
 }
 
 .footer {
