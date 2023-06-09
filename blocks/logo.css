@@ -1,0 +1,19 @@
+.logo {
+    margin-right: 64px;
+    z-index: 2;
+  }
+  
+  .logo_place_header {
+    position: absolute;
+    top: auto;
+    left: 20px;
+    padding-top: 30px;
+  }
+
+  .logo_place_footer {
+    width: 183px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: -380px;
+  }
