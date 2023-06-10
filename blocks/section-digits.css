@@ -1,0 +1,61 @@
+.digits {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  
+  .digits__title {
+    width: 60%;
+    padding-right: 70px;
+  }
+  
+  .digits__title-text {
+    line-height: 1.15px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .digits__subtitle {
+    width: 60%;
+    padding-top: 20px;
+  }
+  
+  .digits__subtitle-text {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+  }
+  
+  .table {
+    display: flex;
+    padding-top: 60px;
+    width: 1100px;
+    list-style: none;
+  }
+  
+  .table__cell {
+    width: 250px;
+  }
+  
+  .table__heading {
+    display: flex;
+    line-height: 1.15px;
+    width: 1.15px;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 5px;
+  }
+  
+  .table__text {
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+  }

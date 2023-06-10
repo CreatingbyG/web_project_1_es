@@ -1,0 +1,49 @@
+.description {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 100px;
+  }
+  
+  .two-columns {
+    display: flex;
+    width: 175px;
+    color: #2f80ed;
+    margin-top: 10px;
+  }
+  
+  .two-columns__brief {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .two-columns__main-text {
+    min-width: 784px;
+    width: 80%;
+  }
+  
+  .two-columns__main-text-paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .two-columns__main-text-paragraph_separation_paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .two-columns__main-text-paragraph_span_paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .two-columns__span_accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+  }

@@ -1,0 +1,67 @@
+.techniques {
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .techniques__title {
+    text-align: center;
+  }
+  
+  .techniques__title-text {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .techniques__subtitle {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .techniques__subtitle-text {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .cards {
+    display: flex;
+    padding-top: 60px;
+    width: 920px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .card__item{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card__image {
+    padding: 0px 40px 43px 40px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  .card__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 16px;
+  }
+  
+  .card__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+  }
