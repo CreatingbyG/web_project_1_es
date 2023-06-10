@@ -70,5 +70,5 @@
 }
 
 .buy-link:hover{
-  animation: transparent 1s ease 1 backwards
+  animation: transparent 1s ease 1 backwards;
 }
