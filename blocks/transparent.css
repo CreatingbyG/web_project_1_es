@@ -1,0 +1,11 @@
+@keyframes transparent{
+    0% {
+      opacity: 3;
+    }
+    50% {
+      opacity: 2;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
