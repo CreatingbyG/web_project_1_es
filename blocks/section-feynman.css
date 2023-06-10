@@ -31,6 +31,10 @@
     font-size: 36px;
     font-weight: normal;
   }
+
+  .feynman__link-text:hover{
+    animation: transparent 1s ease 1 backwards;
+  }
   
   .feynman__link {
     margin-right: 48px;
