@@ -161,30 +161,30 @@
   font-weight: normal;
 }
 
-.two-columns__main__text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.two-columns__main__text_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-columns__main__text_paragraph_separation_paragraph {
+.two-columns__paragraph_separation {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-columns__main__text_paragraph_span_paragraph {
+.two-columns__paragraph_span_paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-columns__span_accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
