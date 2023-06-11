@@ -557,12 +557,12 @@
   padding-right: 90px;
 }
 
-.table__cell_theme_dark {
+.table-cell_theme_dark {
   width: 200px;
   color: white;
 }
 
-.table__heading_theme_dark {
+.table-heading_theme_dark {
   color: #ffffff;
   width: 1.15px;
   line-height: 1.15px;
@@ -571,7 +571,7 @@
   list-style: none;
 }
 
-.table__text_theme_dark {
+.table-text_theme_dark {
   color: #ffffff;
   width: 100%;
   padding-top: 20px;
