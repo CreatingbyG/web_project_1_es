@@ -283,7 +283,7 @@
   padding-top: 20px;
 }
 
-.videos__iframes {
+.video__iframes {
   display: flex;
   flex-direction: row;
   gap: 20px;
