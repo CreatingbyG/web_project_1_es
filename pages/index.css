@@ -178,7 +178,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph_span_paragraph {
+.two-columns__paragraph_span {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -283,7 +283,7 @@
   padding-top: 20px;
 }
 
-.video__iframe {
+.video__iframes {
   display: flex;
   flex-direction: row;
   gap: 20px;
