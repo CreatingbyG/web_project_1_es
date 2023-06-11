@@ -155,24 +155,24 @@
   margin-top: 10px;
 }
 
-.two-column__brief {
+.two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.two-column__main-text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.two-column__paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-column__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
