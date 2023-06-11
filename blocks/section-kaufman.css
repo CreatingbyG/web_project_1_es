@@ -1,3 +1,13 @@
+.kaufman {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: #000000;
+  padding: 90px 0px 90px 0px;
+}
+
 .kaufman__title {
   width: 60%;
   z-index: 1;
@@ -27,7 +37,7 @@
   margin: 0px;
 }
 
-.kaufman__table_theme_dark {
+.table_theme_dark {
   padding-top: 80px;
   width: 1100px;
   list-style: none;
@@ -35,12 +45,12 @@
   padding-right: 90px;
 }
 
-.kaufman__table-cell_theme_dark {
+.table-cell_theme_dark {
   width: 200px;
   color: white;
 }
 
-.kaufman__table-heading_theme_dark{
+.table-heading_theme_dark{
   color: #ffffff;
   width: 1.15px;
   line-height: 1.15px;
@@ -49,7 +59,7 @@
   list-style: none;
 }
 
-.kaufman__table-text_theme_dark {
+.table-text_theme_dark {
   color: #ffffff;
   width: 100%;
   padding-top: 20px;
