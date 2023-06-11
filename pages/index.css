@@ -155,18 +155,18 @@
   margin-top: 10px;
 }
 
-.description__two-columns_brief {
+.description__two-columns-brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.description__two-columns_main-text {
+.description__two-columns-main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.description__two-columns_paragraph {
+.description__two-columns-paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -294,18 +294,18 @@
   margin-top: 10px;
 }
 
-.oakley__two-columns_brief {
+.oakley__two-columns-brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.oakley__two-columns_main-text {
+.oakley__two-columns-main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.oakley__two-columns_paragraph {
+.oakley__two-columns-paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
