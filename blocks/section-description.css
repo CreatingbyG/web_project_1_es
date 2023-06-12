@@ -6,31 +6,31 @@
   padding-top: 100px;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   width: 175px;
   color: #2f80ed;
   margin-top: 10px;
 }
 
-.description__two-columns-brief {
+.two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.description__two-columns-main-text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.description__two-columns-paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.description__two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
