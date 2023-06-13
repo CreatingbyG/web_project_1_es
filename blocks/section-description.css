@@ -8,15 +8,17 @@
 
 .two-columns {
   display: flex;
-  width: 175px;
-  color: #2f80ed;
-  margin-top: 10px;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
 .two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2f80ed;
+  margin-top: 30px;
+  width: 175px;
 }
 
 .two-columns__main-text {

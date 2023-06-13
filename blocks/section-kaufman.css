@@ -38,28 +38,29 @@
 }
 
 .table_theme_dark {
-  padding-top: 80px;
-  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   z-index: 3;
   padding-right: 90px;
 }
 
-.table-cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
 }
 
-.table-heading_theme_dark{
+.table__heading_theme_dark{
   color: #ffffff;
   width: 1.15px;
   line-height: 1.15px;
   font-size: 24px;
   font-weight: bold;
   list-style: none;
+  padding-top: 80px;
 }
 
-.table-text_theme_dark {
+.table__text_theme_dark {
   color: #ffffff;
   width: 100%;
   padding-top: 20px;
