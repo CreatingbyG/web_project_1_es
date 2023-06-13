@@ -532,7 +532,7 @@
   margin: 0px;
 }
 
-.table_theme_dark {
+.table_theme-dark {
   display: flex;
   flex-wrap: wrap;
   width: 1212px;
@@ -543,13 +543,13 @@
   margin: auto;
 }
 
-.table__cell_theme_dark {
+.table__cell_theme-dark {
   width: 200px;
   color: white;
   margin: auto;
 }
 
-.table__heading_theme_dark{
+.table__heading_theme-dark{
   color: #ffffff;
   width: 1.15px;
   line-height: 1.15px;
@@ -559,7 +559,7 @@
   padding-top: 80px;
 }
 
-.table__text_theme_dark {
+.table__text_theme-dark {
   color: #ffffff;
   width: 100%;
   padding-top: 20px;
