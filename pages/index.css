@@ -535,8 +535,11 @@
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
+  width: 1212px;
   list-style: none;
   z-index: 3;
+  justify-content: space-between;
+  margin: auto;
   padding-right: 90px;
 }
 
