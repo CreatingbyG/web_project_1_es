@@ -505,7 +505,7 @@
 
 .kaufman__title {
   width: 60%;
-  z-index: 5;
+  z-index: 1;
 }
 
 .kaufman__title-text {
@@ -519,7 +519,7 @@
 
 .kaufman__subtitle {
   width: 60%;
-  z-index: 4;
+  z-index: 2;
   padding-top: 20px;
 }
 
@@ -576,7 +576,6 @@
   overflow: hidden;
   animation: rotation 20s linear infinite;
   width: 636px;
-  z-index: -1;
 }
 
 
