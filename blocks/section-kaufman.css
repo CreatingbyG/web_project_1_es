@@ -10,7 +10,7 @@
 
 .kaufman__title {
   width: 60%;
-  z-index: 1;
+  z-index: 5;
 }
 
 .kaufman__title-text {
@@ -24,7 +24,7 @@
 
 .kaufman__subtitle {
   width: 60%;
-  z-index: 2;
+  z-index: 4;
   padding-top: 20px;
 }
 
@@ -40,11 +40,12 @@
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
-  width: 1100px;
+  width: 1212px;
   list-style: none;
   z-index: 3;
   justify-content: space-between;
-  padding-right: 90px;
+  padding-right: 50px;
+  margin: auto;
 }
 
 .table__cell_theme_dark {
@@ -79,4 +80,6 @@
   right: -124px;
   overflow: hidden;
   animation: rotation 20s linear infinite;
+  width: 636px;
+  z-index: -1;
 }
