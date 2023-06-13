@@ -539,13 +539,13 @@
   list-style: none;
   z-index: 3;
   justify-content: space-between;
-  margin: auto;
   padding-right: 90px;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
+  margin: auto;
 }
 
 .table__heading_theme_dark{
@@ -573,6 +573,7 @@
   top: 0px;
   right: -124px;
   overflow: hidden;
+  width: 636px;
   animation: rotation 20s linear infinite;
 }
 
