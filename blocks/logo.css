@@ -13,7 +13,6 @@
   .logo_place_footer {
     width: 183px;
     height: 35px;
-    position: absolute;
-    top: 0px;
-    left: -380px;
+    display: flex;
+    flex-direction: column;
   }
