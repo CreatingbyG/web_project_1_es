@@ -32,6 +32,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .khan__quote-author {
@@ -39,6 +40,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .khan__quote-author-subline {
@@ -46,15 +48,18 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .khan__book-container {
-  position: relative;
+  display: flex;
+  gap: 48px;
 }
 
 .book-picture {
-  height: auto;
-  transform: translate(170px, 350px) scale(1.5);
+  height: 950px;
+  width: 650px;
+  transform: translate(140px, 350px) scale(1.5);
 }
 
 .buy-link {
@@ -63,10 +68,8 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  position: absolute;
-  top: 15%;
-  left: 70%;
-  padding-left: 48px;
+  padding-left: 250px;
+  padding-top: 150px;
 }
 
 .buy-link:hover{

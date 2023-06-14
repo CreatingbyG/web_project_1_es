@@ -469,12 +469,13 @@
 }
 
 .khan__book-container {
-  position: relative;
+  display: flex;
+  gap: 48px;
 }
 
 .book-picture {
   height: 950px;
-  width: auto;
+  width: 650px;
   transform: translate(140px, 350px) scale(1.5);
 }
 
@@ -484,10 +485,8 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  position: absolute;
-  top: 15%;
-  left: 70%;
-  padding-left: 48px;
+  padding-left: 250px;
+  padding-top: 150px;
 }
 
 .buy-link:hover{
@@ -622,21 +621,18 @@
   display: flex;
   width: 100%;
   background-color: #000000;
-  padding-bottom: 40px;
+  padding: 60px 0px 40px 0px;
 }
 
 .footer__columns {
   flex-basis: 711px;
   margin: auto;
-  padding-top: 60px;
-  padding-bottom: 40px;
   position: relative;
-  display: flex;
 }
 
 .footer__columns-content-copyright {
   height: 18px;
-  display: flex;
+  position: relative;
   
 }
 
@@ -646,7 +642,7 @@
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  bottom: -100px;
+  bottom: -150px;
   left: -380px;
 }
 
@@ -662,8 +658,8 @@
   gap: 20px;
   flex-direction: column;
   position: absolute;
-  top: 0px;
-  right: 10px;
+  top: -150px;
+  right: -80px;
   color: #ffffff;
 }
 
@@ -692,8 +688,8 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 0px;
-  right: -250px;
+  top: -150px;
+  right: -300px;
   gap: 20px;
 }
 
@@ -721,6 +717,6 @@
   width: 183px;
   height: 35px;
   position: absolute;
-  top: 0px;
+  top: -150px;
   left: -380px;
 }
